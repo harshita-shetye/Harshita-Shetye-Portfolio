@@ -1,9 +1,8 @@
-import classes from "./Hobbies.module.css";
 
 const Hobbies = () => {
   return (
     <>
-      <div className={classes.hobbies}>
+      <div>
         <p>Hobbies</p>
       </div>
     </>

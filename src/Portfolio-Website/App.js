@@ -1,12 +1,9 @@
-import classes from "./App.css";
-import NavCard from "./Navigation/NavCard";
-import UI from "./UI/UI";
+import Controller from "./Controller";
 
 function App() {
   return (
     <>
-      <NavCard />
-      <UI />
+      <Controller />
     </>
   );
 }

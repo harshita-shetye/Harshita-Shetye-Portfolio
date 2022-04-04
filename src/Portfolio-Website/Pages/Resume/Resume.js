@@ -1,9 +1,9 @@
-const Home = () => {
+const Resume = () => {
   return (
     <>
       <section className="section">
         <div className="title">
-          <h2>Home Page</h2>
+          <h2>Hershey's Resume</h2>
           <div className="underline"></div>
         </div>
         <div>Still in progress...</div>
@@ -12,4 +12,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Resume;

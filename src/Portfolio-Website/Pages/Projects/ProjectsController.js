@@ -15,7 +15,7 @@ const ProjectsController = ({
 
   return (
     <>
-      <article className="single-project">
+      <div className="single-project">
         <img src={image} alt={alt} />
         <footer>
           <div className="project-info">
@@ -34,7 +34,7 @@ const ProjectsController = ({
             </Link>
           </p>
         </footer>
-      </article>
+      </div>
     </>
   );
 };

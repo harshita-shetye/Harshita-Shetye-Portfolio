@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import Slider from "./slider";
+import FoodItems from "./FoodItems";
 
 const FoodMenu = () => {
   return (
@@ -6,13 +8,16 @@ const FoodMenu = () => {
       <br />
       <br />
       <section className="section">
-        <h4>
+        <Slider />
+        <FoodItems />
+
+        {/* <h4>
           Our restaurant will be opening soon with the most delicious snacks on
           the menu!
-        </h4>
+        </h4> */}
         <div className="project-info">
-          <Link to="/" className="btn">
-            Go back home
+          <Link to="/Projects" className="btn">
+            Go back to Projects
           </Link>
         </div>
       </section>

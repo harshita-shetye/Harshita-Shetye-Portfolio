@@ -2,6 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import logo from "./logo.png";
 import { FaBars } from "react-icons/fa";
+import { socialIcons } from "./SocialIcons";
 
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);
@@ -64,6 +65,18 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
+        <ul className="social-icons">
+          {socialIcons.map((socialIcon) => {
+            const { id, url, icon } = socialIcon;
+            return (
+              <li key={id}>
+                <a href={url} target="_blank">
+                  {icon}
+                </a>
+              </li>
+            );
+          })}
+        </ul>
       </div>
     </nav>
   );
